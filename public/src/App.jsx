@@ -14,59 +14,59 @@ function App() {
 
   let random = [{
     id: 1,
-    description: "Di si por favor",
-    img: "https://i.pinimg.com/originals/db/aa/c1/dbaac13f6278b91a15e480752b8a7242.gif"
+    description: "Ya pues :(",
+    img: "https://64.media.tumblr.com/7983c31f2c18fe5f24e7d4b2dc559900/074712d719c4b8e6-8c/s400x600/3837f1fe1d4b6c3b4dfb3cd9389e96e00b841615.gif"
   },
   {
     id: 1,
-    description: "Piénsalo de nuevo.",
-    img: "https://i.pinimg.com/originals/77/6b/21/776b215bed3deeef47fd3aa657685a18.gif"
+    description: "Tu sabes que quieres :)",
+    img: "https://i.pinimg.com/originals/a9/fb/d4/a9fbd437bf2255bf60b6bff1fabf4bed.gif"
   }
     ,
   {
     id: 2,
-    description: "Vamos, atrévete a decir que sí.",
-    img: "https://www.gifmaniacos.es/wp-content/uploads/2019/05/gatitos-kawaii-gifmaniacos.es-19.gif"
+    description: "AmorrrrRRRRRRRR :c",
+    img: "https://graziamagazine.com/es/wp-content/uploads/sites/12/2016/02/16162009/047_tired_cat_gifs.gif"
   },
   {
     id: 3,
-    description: "No tengas miedo, será genial.",
-    img: "https://i.pinimg.com/originals/e1/c3/88/e1c388133e0f998e25bb17c837b74a14.gif"
+    description: "Te hare tu amborgesita :b",
+    img: "https://i.gifer.com/ICZZ.gif"
   },
   {
     id: 4,
-    description: "Confía en mí, será divertido.",
-    img: "https://media.tenor.com/Bn88VELdNI8AAAAi/peach-goma.gif"
+    description: "El si es mas grande :b",
+    img: "https://img.huffingtonpost.es/uploads/2023/01/13/63c09f8f5dd81.gif"
   },
   {
     id: 5,
-    description: "No tengas dudas, te hará sonreír.",
-    img: "https://i.pinimg.com/originals/c6/b3/0d/c6b30d1a2dc178aeb92de63295d4ae64.gif"
+    description: "Yo no me rindo amor 0.o",
+    img: "https://i.gifer.com/9Wh4.gif"
   },
   {
     id: 6,
-    description: "Te prometo que será inolvidable.",
-    img: "https://media.tenor.com/N2oqtqaB_G0AAAAi/peach-goma.gif"
+    description: "Yo se que tienes ganasssss",
+    img: "https://i.gifer.com/YyYj.gif"
   },
   {
     id: 7,
-    description: "No dejes que el miedo te detenga.",
-    img: "https://i.pinimg.com/originals/db/aa/c1/dbaac13f6278b91a15e480752b8a7242.gif"
+    description: "No voy a parar 0.o",
+    img: "https://i.gifer.com/Sbj6.gif"
   },
   {
     id: 8,
-    description: "Confía en el destino, nos está dando una señal.",
-    img: "https://media.tenor.com/cbEccaK9QxMAAAAi/peach-goma.gif"
+    description: "Yo se que quieres que estemos juntos amorrrrRRRR",
+    img: "https://i.gifer.com/WFvj.gif"
   },
   {
     id: 9,
-    description: "Confía en mí.",
-    img: "https://i.pinimg.com/originals/db/aa/c1/dbaac13f6278b91a15e480752b8a7242.gif"
+    description: "Ya di que siiiiiiiiiii",
+    img: "https://i.gifer.com/5TmI.gif"
   },
   {
     id: 10,
-    description: "No te arrepentirás.",
-    img: "https://media.tenor.com/I7KdFaMzUq4AAAAi/peach-goma.gif"
+    description: "Te va a gustarrrRRRRRR",
+    img: "https://i.gifer.com/9Wh4.gif"
   }]
 
   const randomResponse = () => {
@@ -97,7 +97,7 @@ function App() {
                 setValueSi(true)
 
                 jsConfetti.addConfetti({
-                  emojis: ['😍', '🥰', '❤️', '😘'],
+                  emojis: ['🌹', '💐', '❤️', '💞'],
                   emojiSize: 70,
                   confettiNumber: 80,
                 })
@@ -119,7 +119,7 @@ function App() {
           <div className="flex justify-center items-center flex-col space-y-10">
             <h1 className="text-4xl text-white font-bold">Sabia que dirias que si ❤️!</h1>
             <img src="https://i.pinimg.com/originals/9b/dc/c6/9bdcc6206c1d36a37149d31108c6bb41.gif" alt="" className="mx-auto" />
-            <span hidden>{document.title = 'Sabia que dirias que si ❤️!'}</span>
+            <span hidden>{document.title = 'Ya sabia jejeje, Te amoooooooooo mi amorrrrrrrrrrRRRRRRR💞'}</span>
           </div>
         )
       }
